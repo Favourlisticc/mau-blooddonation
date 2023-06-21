@@ -19,16 +19,25 @@
         <div class="">
              {{>landing}}
             {{{body}}}
-            
+
         </div>
     </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-      CKEDITOR.replace('body', {
-        plugins: 'wysiwygarea, toolbar, basicstyles, link'
-      })
+     <script>
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var options = {
+        alignment: 'middle',
+        coverTrigger: false,
+    };
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, options);
+
+});
+
      </script>
 
 

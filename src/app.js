@@ -11,6 +11,9 @@ const mime = require('mime');
 const methodOverride = require('method-override')
 const bodyParser = require('body-parser');
 
+// Require the firebase.js file
+const firebase = require("../firebase");
+
 //calling env file
 const { PORT, SESSION_SECRET, MONGO_URI } = require('./config/env')
 

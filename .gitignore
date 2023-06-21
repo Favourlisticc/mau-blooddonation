@@ -1,0 +1,5 @@
+.vercel
+env.js
+node_modules
+functions
+firebase.js

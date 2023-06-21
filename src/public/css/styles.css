@@ -1,0 +1,38 @@
+/* landingpage */
+
+.navbar-fixed > nav{
+    line-height: 0px;
+}
+
+
+.dropdown-trigger{
+    display: none;
+}
+
+.logo-flex{
+    display: flex;
+}
+
+.brand-logo{
+    width: 100px;
+}
+.logo-flex> h6{
+    color: black;
+    padding-top: 30px;
+}
+.hide-on-med-and-down > a{
+    color: black;
+}
+.nav-wrapper{
+    display: flex;
+}
+.nav-links{
+    margin-top: 30px;
+    margin-left: 800px;
+}
+
+@media (max-width: 767px) {
+    .dropdown-trigger{
+        display: inline;
+    }
+  }
